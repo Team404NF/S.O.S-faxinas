@@ -20,15 +20,15 @@
     .barra{
         background-color: black;
         z-index: 2;
+        transition: .5s;
     }
     .nav{
         position: fixed;
         inset: 0;
-        left: 50%;
         flex-direction: column;
-        transform: translatex(-50%) scaleX(0);
+        transform: scaleX(0);
         justify-content: center;
-        background-color: #fff;
+        background-color: black;
         width: 100vw;
         height: 100vh;
     }
@@ -37,11 +37,33 @@
         transform-origin: center;
         transform: scaleX(1);
     }
+    .menu-act{
+      animation: rodar 1s ;
+    }
     .menu-act> .barra{
       background-color: #fff;
+    }
+    .menu-act> #barra1{
+        transform: rotate(45deg) translatey(20px);
+    }
+    .menu-act> #barra2{
+        display: none;
+    }
+    .menu-act> #barra3{
+        transform: rotate(-45deg) translatey(-20px);
     }
     .nav-item{
         color: #fff;
         font-size: 40px;
     }
 }
+@keyframes rodar{
+    from{
+        transform: rotate(0deg);
+    }
+ 
+     to{
+        transform: rotate(360deg);
+     }
+        
+    }
