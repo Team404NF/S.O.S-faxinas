@@ -1,0 +1,7 @@
+@font-face {
+    font-family: Happy;
+    src: url(../fontes/Happy\ School.otf);
+}
+.logo{
+    font-family: Happy;
+}
