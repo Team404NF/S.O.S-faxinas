@@ -5,3 +5,12 @@
 .logo{
  font-family: Happy ,Arial, Helvetica, sans-serif;
 }
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
