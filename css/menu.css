@@ -13,3 +13,35 @@
     background-color: black;
     border-radius: 20px;
 }
+@media(max-width:600px){
+    .hamburger{
+        display: flex;
+    }
+    .barra{
+        background-color: black;
+        z-index: 2;
+    }
+    .nav{
+        position: fixed;
+        inset: 0;
+        left: 50%;
+        flex-direction: column;
+        transform: translatex(-50%) scaleX(0);
+        justify-content: center;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav-act{
+        transition: 0.5s;
+        transform-origin: center;
+        transform: scaleX(1);
+    }
+    .menu-act> .barra{
+      background-color: #fff;
+    }
+    .nav-item{
+        color: #fff;
+        font-size: 40px;
+    }
+}

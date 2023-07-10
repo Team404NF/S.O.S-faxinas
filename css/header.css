@@ -3,7 +3,7 @@
     src: url(../fontes/Happy\ School.otf);
 }
 header{
-    padding: 30px;
+    padding: 30px 5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
