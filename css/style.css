@@ -8,3 +8,10 @@ body,html{
     width: 100%;
     box-sizing: border-box;
 }
+:root{
+    --azul:#A4F5D9
+    --rosa:#E7A9F5
+    --amarelo:#F5DC9D
+    --branco:white
+    --preto:black
+}

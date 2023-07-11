@@ -1,3 +1,9 @@
+header{
+    background-color: var(--rosa);
+    border-bottom: 1em black;
+
+}
+
 .nav{
     display: flex;
     align-items: center;
@@ -6,7 +12,12 @@
 }
 .nav-item{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 770;
+}
+.nav-item:hover{
+    text-decoration: underline 2px;
 }
 .hamburger{
     display: flex;
@@ -78,3 +89,6 @@
      }
         
     }
+    
+    
+    
