@@ -15,9 +15,27 @@ header{
     color: white;
     font-size: 1.2em;
     font-weight: 770;
+    position: relative;
+    transition: .5s;
 }
 .nav-item:hover{
-    text-decoration: underline 2px;
+    text-shadow: 0px 0px 3px #fff;
+}
+.nav li ::after{
+   content:"";
+   width: 60%;
+   height: 2px;
+   background-color: #fff;
+   box-shadow: 0px 0px 2px #fff;
+   position: absolute;
+   top: 100%;
+   left: 20%;
+   transition: .5s;
+   transform-origin: left;
+   transform: scaleX(0);
+}
+.nav li :hover::after{
+    transform: scaleX(1);
 }
 .hamburger{
     display: flex;

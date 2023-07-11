@@ -9,9 +9,19 @@ body,html{
     box-sizing: border-box;
 }
 :root{
-    --azul:#A4F5D9
-    --rosa:#E7A9F5
-    --amarelo:#F5DC9D
-    --branco:white
-    --preto:black
+    --azul:#A4F5D9;
+    --rosa: #E7A9F5;
+    --amarelo: #F5DC9D;
+    --branco: white;
+    --preto: black;
+}
+body{
+    background-color: var(--amarelo);
+}
+:root{
+    --azul:#A4F5D9;
+    --rosa:#E7A9F5;
+    --amarelo:#f3eedc;
+    --branco:white;
+    --preto:black;
 }
