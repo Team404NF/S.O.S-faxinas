@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Happy;
+    src: url(../fontes/Happy\ School.otf);
+}
+#apresentacao header{
+    padding: 30px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-family: Happy;
+    font-size: 2em;
+    text-shadow: 0px 0px 5px black;
+}
+#apresent-txt{
+    max-width: 50vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#apresent-txt h1{
+    font-size: 25px;
+}
+#apresent-txt h2{
+    font-size: 20px;
+}
+#apresent-txt p{
+    margin-top: 15px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+.bt{
+    position: relative;
+    width: fit-content;
+    width: 150px;
+}
+#contact{
+    padding: 15px 0px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#contratar{
+    padding: 15px 0px;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    list-style: none;
+    top: 75%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: none;
+    transition: 0.5s;
+}
+
+#apresentacao main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
