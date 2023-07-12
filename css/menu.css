@@ -54,6 +54,9 @@ header{
     border-radius: 20px;
 }
 @media(max-width:850px){
+    .body-act{
+        overflow: hidden;
+    }
     .hamburger{
         display: flex;
     }
