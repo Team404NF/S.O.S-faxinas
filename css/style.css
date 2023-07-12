@@ -8,20 +8,11 @@ body,html{
     width: 100%;
     box-sizing: border-box;
 }
+
 :root{
-    --azul:#A4F5D9;
-    --rosa: #E7A9F5;
-    --amarelo: #F5DC9D;
-    --branco: white;
-    --preto: black;
-}
-body{
-    background-color: var(--amarelo);
-}
-:root{
-    --azul:#A4F5D9;
-    --rosa:#E7A9F5;
-    --amarelo:#f3eedc;
+    --azul:#7eeeee;
+    --azul-claro: #c8eee8;
+    --azul-escuro: #5c9cac;
     --branco:white;
     --preto:black;
 }
