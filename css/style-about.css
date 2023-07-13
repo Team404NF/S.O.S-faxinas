@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-image: url(../image/fundo-about-dt\ .jpg);
+    background-size:cover
 }
 
 :root{

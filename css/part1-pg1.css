@@ -8,7 +8,7 @@
 }
 #apresentacao{
     height: 100vh;
-    background-color: var(--azul-claro);
+    background-image:linear-gradient(var(--azul-claro), rgb(226, 247, 247));
 }
 #apresentacao header{
     padding: 30px 5vw;
@@ -17,7 +17,8 @@
     justify-content: space-between;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    border-bottom: 7px solid #5c9cac;
+    border-bottom: 8px solid #5c9cac;
+    box-shadow: 0px 2px 5px #4d808dad;
 }
 
 .logo{
@@ -52,6 +53,7 @@
     font-size: 40px;
     color: var(--azul-escuro);
     font-style: italic;
+    
 }
 .negrito{
     color: var(--azul);
