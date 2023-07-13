@@ -31,7 +31,7 @@ header{
    position: absolute;
    top: 100%;
    left: 0%;
-   transition: .2s;
+   transition: .5s;
    transform-origin:left;
    transform: scaleX(0);
 }
