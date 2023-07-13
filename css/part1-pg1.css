@@ -56,14 +56,20 @@
     font-weight: 700;
     font-size: 40px;
     color: var(--azul-escuro);
+    font-style: italic;
 }
 .negrito{
-    color: rgba(0, 0, 139, 0.575);
+    color: var(--azul);
+    text-decoration: underline;
+    text-shadow: 2px 2px 0px var(--azul-escuro);
+    font-weight: 800;
+    
 }
 #apresent h2{
     font-size: 22px;
     color:var(--azul-escuro);
     font-weight: 600;
+    font-style: italic;
 }
 #apresent p{
     margin-top: 15px;
@@ -87,23 +93,19 @@
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 20px;
-    border: solid var(--azul-claro);
+    border: solid white;
     border-width: 2px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.527);
-    transition: .5s;
+    box-shadow: 0px 0px 3px white;
+    transition: .3s;
+    font-weight: 700;
 }
 #contact:hover{
-    text-shadow: 0px 0px 3px #fff;
-    animation: pulsar 1.5s linear infinite;
-}
-@keyframes pulsar {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
+    text-shadow: 0px 0px 2px var(--azul-claro);
+    background-color: white;
+    color:var(--azul-escuro);
+    box-shadow: 0px 0px 3px var(--azul-escuro);
+    border: solid var(--azul-escuro);
+    border-width: 2px;
+    transition: .3s;
+    transform: scale(1.07);
 }
