@@ -52,7 +52,7 @@ header{
     background-color: black;
     border-radius: 20px;
 }
-@media(max-width:850px){
+@media(max-width:900px){
     .body-act{
         overflow: hidden;
     }
@@ -61,7 +61,7 @@ header{
     }
     .barra{
         background-color: #fff;
-        transition: 1s;
+        transition: .5s;
         box-shadow: 0px 0px 3px black;
     }
     .nav{
@@ -70,17 +70,16 @@ header{
         flex-direction: column;
         transform: scaleX(0);
         justify-content: center;
-        background-color: black;
+        background-color: var(--azul-escuro);
         width: 100vw;
         height: 100vh;
+        transition: 0.5s;
     }
     .nav-act{
-        transition: 0.5s;
         transform-origin: center;
         transform: scaleX(1);
     }
     .menu-act{
-      animation: rodar 0.8s linear;
       z-index: 2;
     }
     .menu-act> .barra{
@@ -100,16 +99,3 @@ header{
         font-size: 40px;
     }
 }
-@keyframes rodar{
-    from{
-        transform: rotate(0deg);
-    }
- 
-     to{
-        transform: rotate(360deg);
-     }
-        
-    }
-    
-    
-    

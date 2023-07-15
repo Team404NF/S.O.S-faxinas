@@ -1,0 +1,20 @@
+@media(max-width:950px){
+    *{margin: 0; padding: 0;}
+    #apresentacao main{
+        flex-direction: column;
+        padding: 0;
+    }
+    #apresentacao{
+        height: auto;
+        max-height: none;
+    }
+    section.part2{
+        background-image: url(../image/slide1.jpg);
+    }
+    .nav-ft,.footer{
+        flex-direction: column;
+    }
+    .footer p{
+        margin: 10px 0;
+    }
+}
