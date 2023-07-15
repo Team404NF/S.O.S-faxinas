@@ -6,6 +6,7 @@ footer{
     padding: 50px 0;
     border-top: solid var(--azul-claro) 3px;
     color: #fff;
+    text-align: center;
 }
 .nav-ft{
     display: flex;

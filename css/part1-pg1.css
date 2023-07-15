@@ -20,7 +20,9 @@
     border-bottom: 8px solid #5c9cac;
     box-shadow: 0px 2px 5px #4d808dad;
 }
-
+.boneca{
+    max-width: 95vw;
+}
 .logo{
     font-family: Happy;
     font-size: 2em;
