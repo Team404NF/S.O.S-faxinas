@@ -26,8 +26,9 @@ body{
   line-height: 1.5em;
 }
 .home-bt{
-  align-self:normal;
-  margin: 10px 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 .home-bt a{
   display: flex;
@@ -42,16 +43,11 @@ body{
   justify-content: start;
   
 }
-.home-bt p{
-  font-weight: bolder;
-  margin-top: 200;
-  margin-top: 16px;
-}
-.home-bt :hover p{
-  transform: scaleX(1);
-}
   @media(max-width:900px){
     body{
         background-image: url(../image/fundo-about-mb.jpg);
+    }
+    .card{
+      margin-top: 70px;
     }
   }
