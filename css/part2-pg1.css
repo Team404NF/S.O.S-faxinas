@@ -37,6 +37,8 @@ body{
     font-size: 20px;
     margin: 20px;
     padding: 20px;
+    max-width: 80vw;
+    text-align: center;
 }
 .buttons a:hover{
     text-shadow: 0px 0px 2px var(--azul-claro);

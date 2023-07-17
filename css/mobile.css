@@ -8,6 +8,9 @@
         height: auto;
         max-height: none;
     }
+    #apresentacao main{
+      margin-top: 60px;
+    }
     section.part2{
         background-image: url(../image/slide1.jpg);
     }
