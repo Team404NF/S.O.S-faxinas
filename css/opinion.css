@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-image: linear-gradient(45deg,
+    #FFB6B0,#6A61A4,#2D3774,#0B1F5A);
+    color: #fff;
+}
+header{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto_principal{
+    position: relative;
+    width: fit-content;
+    text-shadow: 0 0 5px black;
+}
+.texto_principal h1{
+    font-size: 100px;
+    font-family: Lobster,Arial, Helvetica, sans-serif;
+}
+.texto_principal p{
+    font-size: x-large;
+    position: absolute;
+    top: -5px;
+    left: 10%;
+    font-weight: bolder;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #c9c9c92f;
+    position: relative;
+    border: solid 2px;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-shadow: 0 0 2px black ;
+    font-weight: bolder;
+}
