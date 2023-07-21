@@ -4,6 +4,13 @@ body{
     #FFB6B0,#6A61A4,#2D3774,#0B1F5A);
     color: #fff;
 }
+.link{   position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.home{
+    width: 50px;
+}
 header{
     padding: 50px 0;
     display: flex;
@@ -20,6 +27,7 @@ header{
     font-family: Lobster,Arial, Helvetica, sans-serif;
 }
 .texto_principal p{
+    font-family: Lobster,Arial, Helvetica, sans-serif;
     font-size: x-large;
     position: absolute;
     top: -5px;
@@ -38,13 +46,53 @@ main{
     border: solid 2px;
     border-radius: 20px;
     width: 200px;
-    height: 300px;
+    max-width: 90vw;
+    min-height: 300px;
     margin: 10px 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     text-shadow: 0 0 2px black ;
     font-weight: bolder;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card h1{
+    padding: 10px 0;
+    font-family: Lobster,Arial, Helvetica, sans-serif;
+}
+.card p{
+    max-width: 90%;
+    font-size: 15px;
+}
+@keyframes Rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@media(min-width:900px){
+     main{
+        max-width: 80%;
+        margin: auto;
+     }
+}
+@media(max-width:900px){
+    main{
+        flex-direction: column;
+    }
+}
+@media(max-width:500px){
+       .texto_principal {
+        display: none;
+       }
+      .link{
+        transform: translate(-50%,-50%);
+        top: 60px;
+        left: 50vw;
+      }
 }

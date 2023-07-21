@@ -49,6 +49,9 @@ footer{
 .footer p{
     text-align: center;
 }
+.creditos{
+    line-height: 25px ;
+}
 .creditos a{
     text-decoration: none;
 }
