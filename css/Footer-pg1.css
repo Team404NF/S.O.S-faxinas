@@ -26,6 +26,7 @@ footer{
 .nav-ft li{
     transition: 0.5s;
 
+
 }
 .nav-ft a{
     color: white;
@@ -55,4 +56,20 @@ footer{
 }
 .creditos a{
     text-decoration: none;
+}
+@media(max-width:950px){
+ .nav-ft {
+    gap:10px;
+ }
+ .footer{
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .creditos{
+    line-height: 20px;
+ }
+ .footer p{
+    line-height: 18px;
+ }
+    
 }
