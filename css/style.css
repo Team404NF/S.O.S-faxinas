@@ -16,3 +16,14 @@ body,html{
     --branco:white;
     --preto:black;
 }
+.logo{
+    font-family: Happy;
+    font-size: 2em;
+    text-shadow: 0px 2px 4px var(--azul-escuro);
+    color: white;
+    cursor:default;
+}
+@font-face {
+    font-family: Happy;
+    src: url(../fontes/Happy\ School.otf);
+}

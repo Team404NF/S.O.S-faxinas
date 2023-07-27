@@ -1,3 +1,5 @@
+
+
 @media(max-width:950px){
     *{margin: 0; padding: 0;}
     #apresentacao main{
@@ -7,9 +9,6 @@
     #apresentacao{
         height: auto;
         max-height: none;
-    }
-    #apresentacao main{
-      margin-top: 60px;
     }
     section.part2{
         background-image: url(../image/slide1.jpg);

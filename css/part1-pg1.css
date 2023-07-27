@@ -1,17 +1,14 @@
-@font-face {
-    font-family: Happy;
-    src: url(../fontes/Happy\ School.otf);
-}
+
 @font-face {
     font-family: Hanging-l;
     src: url(../fontes/Hanging\ Lights\ Demo.otf);
 }
 #apresentacao{
-    min-height: 100vh;
     background-image:linear-gradient(var(--azul-claro), rgb(226, 247, 247));
 }
 #apresentacao header{
-    padding: 30px 5vw;
+    height: 10vh;
+    padding: 20px 5vw;
     display: flex;
     align-items: center;
     text-align: center;
@@ -24,15 +21,6 @@
 .boneca{
     max-width: 95vw;
 }
-.logo{
-    font-family: Happy;
-    font-size: 2em;
-    text-shadow: 0px 2px 4px var(--azul-escuro);
-    color: white;
-    cursor:default;
-}
-
-
 #apresent{
     color: #fff;
     text-align: center;
@@ -46,8 +34,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: fit-content;
     max-width: 90vw;
-    width: 800px;
 }
 #apresent h1{
     font-weight: 700;
@@ -80,6 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 90vh;
 }
 .contact{
     margin-top: 30px;

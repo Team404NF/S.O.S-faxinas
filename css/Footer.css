@@ -18,10 +18,9 @@ footer{
     display: flex;
     align-items: space-around;
     list-style: none;
-    margin-top: 10px;
-    gap: 60px;
+    margin: 20px 0;
+    gap: 40px;
     text-align: space-around;
-    
 }
 .nav-ft li{
     transition: 0.5s;
@@ -59,7 +58,7 @@ footer{
 }
 @media(max-width:950px){
  .nav-ft {
-    gap:10px;
+    flex-direction: column;
  }
  .footer{
     margin-top: 5px;
