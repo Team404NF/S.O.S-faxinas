@@ -111,15 +111,3 @@
     transition: .3s;
     transform: scale(1.07);
 }
-
-@keyframes Float {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-40px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}

@@ -120,8 +120,20 @@ header{
         font-size: 40px;
     }
 }
+
 @media(max-width:400px){
     .nav a{
         font-size: medium;
+    }
+    .hd-menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hd-menu>.logo{
+        margin-bottom: 15px;
+        font-size: x-large;
+    }
+    .hd-menu>.nav{
+        transform-origin:  center;
     }
 }

@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/opinion.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/Footer.css">
+
+    <script src="js/menu.js"></script>
+
     <title>Opinião dos clientes</title>
 </head>
 <body>
     
-    <a href="index.html" class="link">
-        <img src="image/home.png" alt="Home" class="home">
-    </a>
-
-     <header>
-         <div class="texto_principal">
-            <p>Feedback dos</p>
-
-             <h1>Clientes</h1>
-         </div>
-     </header>
+    <header class="hd-menu">
+        <h1 class="logo">- S.O.S faxinas -</h1>
+    
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="index.html" class="nav-item">• Pagina principal</a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-item">• Sobre</a>
+                </li>
+                <li>
+                    <a href="https://wa.me/+552198014-4937" class="nav-item" target="_blank">• Whatsapp</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/adrianademelo2008/" class="nav-item" target="_blank">• Instagram</a>
+                </li>
+                            </ul>
+        </nav>
+        <div class="hamburger" onclick="actMenu()">
+            <span class="barra" id="barra1"></span>
+            <span class="barra" id="barra2"></span>
+            <span class="barra" id="barra3"></span>
+        </div>
+    </header>
 
      <main>
        <div class="card">
@@ -48,5 +67,29 @@
        </div>
 
      </main>
+
+     <footer>
+        <h1 class="logo">-S.O.S Faxinas-</h1>
+        <ul class="nav-ft">
+            <li><a href="index.html">Pagina principal</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="https://wa.me/+552198014-4937" target="_blank">Whatsapp</a></li>
+            <li><a href="https://www.instagram.com/adrianademelo2008/" target="_blank">Instagram</a></li>
+        </ul>
+    <div class="footer">
+                <div class="creditos">
+                <p>Equipe de desenvolvimento: <a href="https://www.instagram.com/team_404_nf/">'Team 404 - Not Found'</a></p>
+                
+                </div>
+            <p>Itaocara - RJ<br>Caso você encontre algum erro ou problema neste site. Entre em contato com
+                    a nossa equipe de suporte:
+                     <a href="mailto:suporte404notfound@gmail.com"
+                    target="_blank">
+                        suporte404notfound@gmail.com
+                    </a>
+                </p>                
+            
+    </div>
+       </footer>
 </body>
 </html>
