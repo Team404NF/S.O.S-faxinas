@@ -3,17 +3,17 @@ body{
     background-color: #c8eee8;
     color: #fff;
 }
-header{
-    padding: 30px 5vw;
+.hd-menu{
+    min-height: 10vh;
+    padding: 20px 5vw;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-radius: 0 0 1em 1em;
     border-bottom: 8px solid #5c9cac;
     box-shadow: 0px 2px 5px #4d808dad;
-  }
+}
 .link{   position: absolute;
     top: 30px;
     left: 30px;
@@ -45,7 +45,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 30px 0;
+    padding: 80px 0;
 }
 .card div{
     background-color: #00ccff;
@@ -66,7 +66,6 @@ main{
     z-index: -1;
     margin-bottom: 50px;
 }
-
 .card h1{
     padding: 10px 0;
     font-family: Lobster,Arial, Helvetica, sans-serif;
